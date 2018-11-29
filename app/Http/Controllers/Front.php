@@ -9,7 +9,7 @@ class Front extends Controller
 
 	public function index()
     {
-    	return 'Welcome home';
+    	return view('products.index');
     }
     
 
@@ -45,7 +45,7 @@ class Front extends Controller
 
     public function contact_us()
     {
-    	# code...
+    	return view('directory.contact_us');
     }
 
     public function login()
